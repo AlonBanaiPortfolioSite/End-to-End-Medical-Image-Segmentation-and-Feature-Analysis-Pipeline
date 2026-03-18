@@ -93,7 +93,6 @@ Marching cubes on tens of thousands of small objects is computationally prohibit
   - Surface area (marching cubes applied only to these)
 
 **Findings:**
-- **Population-level features (mean, std intensity) most informative**
 - Top-10 object statistics less informative - invasion is diffuse, not dominated by few large objects
 - Simple aggregate metrics outperformed complex geometric analysis
 
@@ -118,9 +117,10 @@ Segmentation Masks (3D)
 ┌─────────────────────────────────────────────────┐
 │ System B: Population-level analysis             │
 │   - Tens of thousands of small objects          │
-│   - Intensity statistics (mean, std)            │
 │   - Total volumes                               │
-│   - [Optional] Top-10 objects geometric stats   │
+│   -Top-10 objects geometric stats               │
+│                                                 │
+│                                                 │
 └─────────────────────────────────────────────────┘
     ↓
 Feature Vector → Classification
