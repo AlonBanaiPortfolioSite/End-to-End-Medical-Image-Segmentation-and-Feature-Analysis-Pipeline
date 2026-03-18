@@ -35,12 +35,11 @@ Alignment quality was assessed by visual inspection of channel overlays before a
 
 **Before registration** — misaligned channel overlay:
 
-> 📷 *Add image: red/green overlay showing misalignment*
+![Before registration](../../images/before_registration.png)
 
 **After registration** — aligned channels:
 
-> 📷 *Add image: red/green overlay showing correct alignment*
+![After registration](../../images/after_registartion.png)
 
-**Foreground mask** (optional) — percentile-threshold mask on tumor channel:
 
-> 📷 *Add image: foreground mask used to restrict the CC metric*
+
